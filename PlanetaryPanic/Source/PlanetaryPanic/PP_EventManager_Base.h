@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "PlanetaryPanic_EventManager.generated.h"
+#include "PP_EventManager_Base.generated.h"
 
 UCLASS()
-class PLANETARYPANIC_API APlanetaryPanic_EventManager : public AActor
+class PLANETARYPANIC_API APP_EventManager_Base : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	APlanetaryPanic_EventManager();
+	APP_EventManager_Base();
 
 protected:
 	// Called when the game starts or when spawned

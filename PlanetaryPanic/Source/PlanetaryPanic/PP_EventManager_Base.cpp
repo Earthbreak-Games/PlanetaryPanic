@@ -1,10 +1,10 @@
 // Copyright Earthbreak Games LLC 2023
 
 
-#include "PlanetaryPanic_EventManager.h"
+#include "PP_EventManager_Base.h"
 
 // Sets default values
-APlanetaryPanic_EventManager::APlanetaryPanic_EventManager()
+APP_EventManager_Base::APP_EventManager_Base()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,14 +12,14 @@ APlanetaryPanic_EventManager::APlanetaryPanic_EventManager()
 }
 
 // Called when the game starts or when spawned
-void APlanetaryPanic_EventManager::BeginPlay()
+void APP_EventManager_Base::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void APlanetaryPanic_EventManager::Tick(float DeltaTime)
+void APP_EventManager_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
