@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+
+#include "PlanetaryPanic.h"
+
 #include "PP_EventManager_Base.generated.h"
 
 UCLASS()
